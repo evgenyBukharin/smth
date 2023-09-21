@@ -838,12 +838,15 @@
     }
 
     .advantages__img {
-        width: 200px;
-        margin-left: -100px;
+        /* width: 200px;
+        margin-left: -100px; */
+        width: 280px;
+        margin-left: -180px;
+        transform: translateX(20px);
     }
 
     .advantages__items {
-        margin-left: -20px;
+        margin-left: -10px;
         width: calc(100% - 90px);
     }
 

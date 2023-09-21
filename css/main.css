@@ -650,6 +650,7 @@ section.pb-0 {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    max-width: 100%;
 }
 .advantage .btn {
     min-width: 0;
@@ -1151,10 +1152,8 @@ section.pb-0 {
 }
 
 .hero {
-    height: 520px;
-}
-.hero:nth-child(even) {
-    background: #175fac;
+    height: 1080px;
+    background: #4a8cd2;
 }
 .hero:nth-child(odd) {
     background: crimson;
