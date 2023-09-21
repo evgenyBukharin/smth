@@ -59,8 +59,6 @@ $(function () {
         // },
     });
 
-    const media576 = window.matchMedia('(max-width: 576px)');
-
     const advantagesOverlay = new Swiper('.advantages__overlay', {
         slidesPerView: 1,
         loop: false,
@@ -76,7 +74,6 @@ $(function () {
         on: {
             slideChange: function () {
                 let height = $('.advantages__img img').height() - $('.advantages__img').height();
-                console.log($('.advantages__img img').height(), $('.advantages__img').height());
                 let part = height / ($('.advantage').length - 1);
                 let shift = part * advantagesSlider.activeIndex;
                 if (height > 0) {
